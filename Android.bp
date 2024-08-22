@@ -52,3 +52,11 @@ prebuilt_font {
     name: "CarroisGothicSC-Regular.ttf",
     src: "CarroisGothicSC-Regular.ttf",
 }
+
+filegroup {
+    name: "CarroisGothicSC",
+    srcs: ["font_config.json"],
+    required: [
+        "CarroisGothicSC-Regular.ttf",
+    ],
+}
